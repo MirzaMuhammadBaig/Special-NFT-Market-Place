@@ -1,7 +1,7 @@
 require("dotenv").config();
-const { API_URL_INFURA , CONTRCT_ADDRESS, ADMIN_PRIVATE_KEY, ADMIN_PUBLIC_KEY} = process.env;
+const { AlchemyAPI , CONTRCT_ADDRESS, ADMIN_PRIVATE_KEY, ADMIN_PUBLIC_KEY} = process.env;
 const { createAlchemyWeb3 } = require("@alch/alchemy-web3");
-const web3 = createAlchemyWeb3(API_URL_INFURA);
+const web3 = createAlchemyWeb3(AlchemyAPI);
 
 const contract = require("../build/contracts/specialNftContract.json");
 const nftContract = new web3.eth.Contract(contract.abi, CONTRCT_ADDRESS);
