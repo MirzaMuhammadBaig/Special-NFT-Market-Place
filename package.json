@@ -1,12 +1,12 @@
 {
-  "name": "portfolio2",
+  "name": "portfolio2-SpecialNftMarketPlace",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": "Blockchain-Developer",
+  "author": "Mirza Muhammad Baig",
   "license": "ISC",
   "devDependencies": {
     "@alch/alchemy-web3": "^1.4.6",
