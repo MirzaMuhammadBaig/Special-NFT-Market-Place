@@ -1,14 +1,14 @@
 contract-address:
-0xc73b0e24a8eed579d71b4919b3bfc1fdc7c1b482
+"0xc73b0e24a8eed579d71b4919b3bfc1fdc7c1b482"
 
 Owner-address:
-0x59856D2FEE891EcAe88E600e424572A280Bf9e7A
+"0x59856D2FEE891EcAe88E600e424572A280Bf9e7A"
 
 admin-address:
-0x700715D9702a1A241A2b4B3D19fA44b4bD0621AD
+"0x700715D9702a1A241A2b4B3D19fA44b4bD0621AD"
 
 whitelist-address:
-0xa1d931518b88cEa143632EfE28103A63E6495b63
+"0xa1d931518b88cEa143632EfE28103A63E6495b63"
 
 opensea-collection-link:
 https://testnets.opensea.io/collection/iec-token-obkxo97g9h
