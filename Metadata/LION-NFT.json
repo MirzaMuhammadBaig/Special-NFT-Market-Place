@@ -1,0 +1,15 @@
+{
+    "description": "A lion is seeing and his looking is very dangerous.",
+    "image": "https://ipfs.io/ipfs/QmWmke8DEduvF2UYz9WFSS7RkrAG1gTYxSC1JsBUjgmSrk",
+    "name": "LION-NFT",
+    "attributes": [
+        {
+            "trait_type": "Personality",
+            "value": "Dangerous"
+        },
+        {
+            "trait_type": "Eye color",
+            "value": "Light red"
+        }
+    ]
+}

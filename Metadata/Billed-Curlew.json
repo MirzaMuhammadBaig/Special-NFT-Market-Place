@@ -1,0 +1,15 @@
+{
+    "description": "A bird is flying slowly and looking cool.",
+    "image": "https://ipfs.io/ipfs/QmZ2oqmvKXVycM8FosbLsFC6qfZnmk2PwQQ9FGSh34iTsG",
+    "name": "Billed-Curlew",
+    "attributes": [
+        {
+            "trait_type": "Personality",
+            "value": "Innocent"
+        },
+        {
+            "trait_type": "Eye color",
+            "value": "White & Black"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "description": "A cute rabbit is looking and he is moving nick continously.",
+    "image": "https://ipfs.io/ipfs/QmU2iwjLfKMSvAanNTfCnZT4zdjt6srRS6pzk6AmfgbsCa",
+    "name": "Cute-Rabbit",
+    "attributes": [
+        {
+            "trait_type": "Personality",
+            "value": "Naugghty"
+        },
+        {
+            "trait_type": "Eye color",
+            "value": "Black & White"
+        }
+    ]
+}

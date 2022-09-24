@@ -1,0 +1,15 @@
+{
+    "description": "A part of land is seeing in this but it's looking like metaverse.",
+    "image": "https://ipfs.io/ipfs/QmR35srvGobCogBgyyvEHHFcMJg4x5YbuuQJKXaA9UZD9B",
+    "name": "Metaverse",
+    "attributes": [
+        {
+            "trait_type": "Personality",
+            "value": "Digital-World"
+        },
+        {
+            "trait_type": "Display",
+            "value": "RGB"
+        }
+    ]
+}
