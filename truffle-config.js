@@ -84,7 +84,7 @@ module.exports = {
     // Note: It's important to wrap the provider as a function to ensure truffle uses a new provider every time.
     rinkeby: {
       provider: () => new HDWalletProvider(MEMMONICS,`https://eth-rinkeby.alchemyapi.io/v2/${PROJECT_ID}`),
-      network_id: 4,       // Goerli's id
+      network_id: 4,       
       confirmations: 1,    // # of confirmations to wait between deployments. (default: 0)
       timeoutBlocks: 200000,  // # of blocks before a deployment times out  (minimum/default: 50)
       gas: 8500000,
