@@ -6,8 +6,8 @@ require("dotenv").config();
 
 const PinImageToIpfs = async (filePath, filename) => {
   const pinataEndpoint = "https://api.pinata.cloud/pinning/pinFileToIPFS";
-  const pinataApiKey = "edc178df7a8c503ef278";
-  const pinataApiSecret ="cac54ad6ab4af83bd8212f60535b25015fbdf6b2ad1967c3a179d3656942a8c0";
+  const pinataApiKey = process.env.pinataApiKey;
+  const pinataApiSecret =process.env.pinataApiSecret;
 
   const form_data = new FormData();
   try {
@@ -32,19 +32,19 @@ const PinImageToIpfs = async (filePath, filename) => {
     const Name = str.slice(0, -4);
 
     metaData = {
-    //   description: "A nice monkey is looking cool and sketing on ice during snow fall.",
-    //   image: "https://ipfs.io/ipfs/" + imageHash,
-    //   name: `${Name}`,
-    //   attributes: [
-    //     {
-    //         trait_type: "Personality",
-    //         value: "Nice"
-    //     },
-    //     {
-    //         trait_type: "Eye color",
-    //         value: "Black & White"
-    //     }
-    // ]
+      description: "A nice monkey is looking cool and sketing on ice during snow fall.",
+      image: "https://ipfs.io/ipfs/" + imageHash,
+      name: `${Name}`,
+      attributes: [
+        {
+            trait_type: "Personality",
+            value: "Nice"
+        },
+        {
+            trait_type: "Eye color",
+            value: "Black & White"
+        }
+    ]
     };
 
     const metadataJson = JSON.stringify(metaData);
