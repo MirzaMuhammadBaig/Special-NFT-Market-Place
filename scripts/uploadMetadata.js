@@ -7,9 +7,9 @@ require("dotenv").config();
 const PinToPinata = async () => {
   const Nfts = fs.readdirSync(NftsPath);
 
-  // for (const nft of Nfts) {
-  //   await PinImageToIpfs(NftsPath, nft);
-  // }
+  for (const nft of Nfts) {
+    await PinImageToIpfs(NftsPath, nft);
+  }
 };
 
 PinToPinata();
