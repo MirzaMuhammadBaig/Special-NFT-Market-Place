@@ -11,7 +11,7 @@ Web3.js
 Node.js
 ```
 
-- Note: In this README, I will explain you about project in two parts. First is Smart-Contract.
+### Note: In this README, I will explain you about this project in some parts. First is Smart-Contract.
 
 ## Smart Contract
 
@@ -77,8 +77,49 @@ If the Public User's Minting limit is reached then Public users cannot mint the 
 
 - Public users cannot mint NFTs if public sales are not active.  
 
+#### Note : Smart-Contract has been ended. Now, I am starting the explaination of next-step.
 
-- Note : Smart-Contract has been ended. Now, I am starting the explaination of scripts.
+### Next-Step is initialize truffle:
+
+First I install truffle from this command:
+```
+npx truffle init
+```
+
+Then, I was set migration.js file and config file as well.
+
+And then remove contract in contracts folder and add my contract.
+
+And then run below command:
+```
+npx truffle compile
+```
+
+For compile our contract.
+
+And then run below command:
+```
+npx truffle migrate --network rinkeby
+```
+
+For integrating and deploying contract on blockchain.
+
+#### Note : Truffle initializing has been ended. Now, I am starting the explaination of next-step.
+
+### Next-Step is upload NFTs on pinata:
+
+For upload Nfts on pinata, I was make scripts in scripts folder, it names is pinataApi and uploadMetadata.
+
+And run below command:
+```
+node uploadMetadata
+```
+
+After completed this process our all nfts will be upload on pinata.
+
+#### Note : Explaination of upload NFTs on pinata has been ended. Now, I am starting the next-step.
+
+### Next-step is make scripts for set and get the data of smart-contract.
 
 ## Scripts
 
