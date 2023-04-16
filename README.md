@@ -135,4 +135,5 @@ After completed this process our all nfts will be upload on pinata.
 
 #### End Explanation!
 
-### Thanks For Reading this!!!
+#### License
+This project is licensed under the MIT.
